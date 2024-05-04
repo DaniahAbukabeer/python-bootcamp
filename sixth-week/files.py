@@ -50,7 +50,7 @@ import os
 os.removedirs('dir1/dir2')#this would remove both the parent and the child
 
 import os, shutil
-shutil.rmtree(dir1)
+#shutil.rmtree(dir1)
 
 for i,j,k in os.walk():
  print(f'current directory {i}')
